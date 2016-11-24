@@ -96,10 +96,8 @@ while True:
         if stop:
             break
 
-# DO the same for the next questions of your round (copy-paste-copy-paste).
-# At the end of the round, paste the following code for the bonus question.
 
-# Now the program will ask the user to go for the bonus question or not
+# Now the program will ask the user to go for another question or not
 
 while True:
     bonus = raw_input("Would you like to try another question?\nHit y for yes and n for no.\n")
