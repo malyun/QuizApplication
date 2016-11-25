@@ -9,3 +9,6 @@ options - List of options for the question
 .is_answer - Parameter of an option that can be true or false. Indicates whether or not that option is the correct answer.
 quiz take <quiz_name> - Start taking a new quiz
 When a user takes a quiz he gets a score based on the answers he got right
+
+Clone this repo into a virtual environment in your machine then initialize the application using the command **python quiz.py**
+ on your terminal
