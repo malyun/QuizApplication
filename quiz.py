@@ -14,7 +14,7 @@ questions = [mammal_questions,random_questions,math_questions]
 
 quiz = {mammal_questions: [("The baby of a cat is called a kitten", True),
                         ("wolves walk in a pack", True),
-                        ("All men are animals", False)],
+                        ("All humans are not mammals", False)],
 
         random_questions: [("johanessbourg is the capital city of south africa", True),
                          ("My favourite color is orange", True),
@@ -133,7 +133,8 @@ while True:
         break
     else:
         print("INVALID INPUT!!! Only hit y or n for your response")
-print "Well Done, Please continue"
+print "Well Done. Please continue to the next level."
+print "YOU WILL BE GIVEN YOUR SCORE AFTER ANSWERING ALL THE QUESTIONS IN THIS LEVEL"
 
 def questions(quiz):
     for q,a in quiz.items():
@@ -164,7 +165,7 @@ def quiz(qs):
         else:
             print("Sorry, correct answer is \"{}\".".format(a))
             
-    print score
+    return score
 
 
 if __name__ == "__main__":    
